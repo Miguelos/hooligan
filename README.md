@@ -4,7 +4,9 @@ This is a fully responsive theme for Jekyll + Jekyll-Bootstrap. It is built on t
 
 ## Installation
 
-  rake theme:install git="https://github.com/Miguelos/hooligan.git"
+```bash
+rake theme:install git="https://github.com/Miguelos/hooligan.git"
+```
 
 ## Preview
 
@@ -18,6 +20,7 @@ You can preview this theme at the [Jekyll-Bootstrap Theme Gallery](http://themes
 
 This theme has some optional configuration support for social buttons. Just add your provider and username to `_config.yml`, like so:
 
+```yaml
   author :
     name : John Doe
     email : blah@email.test
@@ -27,5 +30,6 @@ This theme has some optional configuration support for social buttons. Just add 
     googleplus: johndoe
     # Whatever you specify for the linkedin option will be placed after `www.linkedin.com/in/`
     linkedin: johndoe
+```
 
 Icons with links to your profiles will then appear on the navbar. Your stalkers will *love* you for making things so easy!
